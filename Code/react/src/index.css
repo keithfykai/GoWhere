@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:white;
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.map-container {
+  height: 100%;
+}
+
+#uploadimage {
+  cursor: pointer; /* Makes the label clickable */
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e8e8e8; /* Adjust background color as needed */
+  color: #000000; /* Adjust text color as needed */
+  font-size: 0.83rem; /* Adjust font size as needed */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#imageInput[type="file"] {
+  display: none; /* Hide the actual file input */
+}
