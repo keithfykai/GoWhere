@@ -49,15 +49,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Link to='/'><img src={logo} alt="GoWhere" className="w-[124px] h-[32px]" /></Link>
+      <Link to='/GoWhere/'><img src={logo} alt="GoWhere" className="w-[124px] h-[32px]" /></Link>
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-          <li className="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-black"><Link to='/'>Home</Link></li>
+          <li className="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-black"><Link to='/GoWhere/'>Home</Link></li>
+          <li className="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-black"><Link to='/aboutus'>About Us</Link></li>
           {loggedin && <li className="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-black"><Link to='/questionnaire'>Search</Link></li>}
           {loggedin && <li className="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-black"><Link to='/accountdetails'>Account</Link></li>}
           {loggedin && <img  src={photoURL} alt="Profile Picture" className='w-[40px] h-[40px] mr-9 rounded-full'/>}
         </ul>
         
-        {loggedin ? <Link to='/'>
+        {loggedin ? <Link to='/GoWhere/'>
           <button
             onClick={handleLogout}
             className="py-2 px-5 sm:flex hidden rounded-full text-[16px] text-white bg-red-500 hover:bg-red-700 duration-300">

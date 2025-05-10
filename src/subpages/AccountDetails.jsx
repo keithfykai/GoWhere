@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom'
 import ProfileAvatar from '../assets/ProfileAvatar.png';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { onAuthStateChanged } from "firebase/auth";
 import { auth , useAuth , upload} from '../firebase/firebase';
 import { useNavigate } from 'react-router-dom';
-
 
 export const AccountDetails = () => {
 

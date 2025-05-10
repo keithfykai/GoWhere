@@ -10,9 +10,9 @@ import { Questionnaire } from './subpages/Questionnaire';
 import { AccountDetails } from './subpages/AccountDetails';
 import { SavedLocations } from './subpages/SavedLocations';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import React, { useState, useEffect } from 'react';
 import { ChangePassword } from './subpages/ChangePassword';
 import { MapPage } from './subpages/MapPage';
+import { AboutUs } from './subpages/AboutUs';
 
 function App(){
   return (
@@ -25,7 +25,7 @@ function App(){
 
 
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/GoWhere/" element={<Home />} />
       <Route path='/createaccount' element={<CreateAccount />} />
       <Route path="/login" element={<Login />} />
       <Route path='/forgotpassword' element={<ForgotPassword />} />
@@ -34,6 +34,7 @@ function App(){
       <Route path='/savedlocations' element={<SavedLocations />} />
       <Route path='/map' element={<MapPage />} />
       <Route path='/changepassword' element={<ChangePassword />} />
+      <Route path='/aboutus' element={<AboutUs/>} />
     </Routes>
     
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
