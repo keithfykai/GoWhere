@@ -1,4 +1,3 @@
-import React from 'react';
 import { bicycle, bus, mrt, neighbourhood, sentosa } from '../../assets';
 
 function Distance({distanceIsClicked, setDistanceIsClicked, setDistanceAnswer}){

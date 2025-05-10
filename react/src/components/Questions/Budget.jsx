@@ -1,4 +1,3 @@
-import React from 'react';
 import park from '../../assets/park.jpg';
 
 let budgetAnswer;

@@ -6,13 +6,13 @@ import { getStorage, ref , uploadBytes, getDownloadURL } from "firebase/storage"
 import { useState, useEffect } from 'react';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKdXOQeQCjWKo5EQZD8xHkmcoGkfjXI14",
-  authDomain: "gowhere-e0d76.firebaseapp.com",
-  projectId: "gowhere-e0d76",
-  storageBucket: "gowhere-e0d76.appspot.com",
-  messagingSenderId: "777994122660",
-  appId: "1:777994122660:web:ea150eaae45acccf46fd31",
-  measurementId: "G-L2F6C2G9J3"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase

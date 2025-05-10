@@ -1,6 +1,4 @@
-import React from "react";
-
-function Features(){
+export function Features(){
     return (
         <section class="bg-gray-900 grid place-items-center">
             <div class="py-8 px-4 mx-14 max-w-screen-xl sm:py-16 lg:px-6">
@@ -9,7 +7,7 @@ function Features(){
 ✨</h2>
                     <p class="text-gray-500 sm:text-xl dark:text-gray-400">GoWhere uses your Current Location to help you suggest a Location based on a short quiz to determine your preference of activity.</p>
                 </div>
-                <div class="space-y-8 space-x-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <div>
                         <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                             <svg class="w-6 h-6 text-gray-800 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

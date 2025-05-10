@@ -1,4 +1,3 @@
-import React from 'react';
 import { bagicon, cupicon, dumbbellicon, mapicon, movieicon } from '../../assets';
 
 let categoryAnswer;
