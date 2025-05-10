@@ -1,39 +1,108 @@
-# 2006-TCE1-CodeCrafters
+# GoWhere 🌍
 
-## Group Members:
-1. Lee Seungju
-2. Jerrell Lee
-3. Jesica Tjan
-4. Lim Shaojun
-5. Keith Lim En Kai (Leader)
+**GoWhere** is a responsive travel planning and exploration app designed to help users discover nearby attractions in Singapore based on preferences like distance, category, budget, and more. With an interactive map, real-time weather integration, and saved locations, GoWhere makes spontaneous or planned trips more enjoyable and personalized.
 
-## Setup Instructions:
-1. Open terminal and run 'npm i'
-2. Run 'npm run dev'
-3. Go to "http://localhost:3000/" to view App
+---
 
-* For optimal viewing, use VSCode and its built-in terminal.
+## 🚀 Live Deployment
 
-# Stack
-### Front-End:
-1. Vite + React 
-2. Tailwind CSS
+👉 [View GoWhere on GitHub Pages](https://keithfykai.github.io/GoWhere/)
 
-### Back-End:
-1. Nodejs
-2. Express
-3. Javascript
+---
 
-### Databases:
-1. Firebase
+## 👥 Team 2006-TCE1-CodeCrafters
 
-### APIs
-1. Google Places API
-2. Google Geolocation API
-3. 2-Hour Weather Forecast Gov API
-4. Mapbox API
-5. Openweathermap API
+| Name             | Role                          |
+| ---------------- | ----------------------------- |
+| Lee Seungju      | Full Stack Developer          |
+| Jerrell Lee      | Full Stack Developer          |
+| Jesica Tjan      | Full Stack Developer          |
+| Lim Shaojun      | Full Stack Developer          |
+| Keith Lim En Kai | Full Stack Developer (Team Lead) |
 
-# Deliverables:
-1. SRS Document
-2. Code
+---
+
+## 📸 Features
+
+* 🔎 **Nearby Recommendations** using Google Places API
+* 🌤️ **Real-Time Weather Forecast** via Singapore’s Gov API
+* 🗺️ **Interactive Map View** with Mapbox
+* 🧱 **Smart Filters** for category, budget, and exclusions
+* 📂 **User Account Management** with Firebase
+* 📍 **Saved Locations** for quick access to your favorite spots
+* 📱 **Responsive Design** optimized for mobile and desktop
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/keithfykai/GoWhere.git
+   cd GoWhere
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to:
+   `http://localhost:3000/`
+
+> 💡 **Tip:** Use **VSCode** and its built-in terminal for the best development experience.
+
+---
+
+## 🧱 Tech Stack
+
+### Front-End
+
+* Vite + React
+* Tailwind CSS
+
+### Back-End
+
+* Node.js
+* Express
+* JavaScript
+
+### Database
+
+* Firebase Authentication & Firestore
+
+### APIs Used
+
+* Google Places API
+* Google Geolocation API
+* 2-Hour Weather Forecast API (Data.gov.sg)
+* Mapbox API
+* OpenWeatherMap API
+
+---
+
+## 📄 Deliverables
+
+* ✅ Software Requirements Specification (SRS)
+* ✅ Full Source Code (Frontend + Backend)
+
+---
+
+## 📅 Badges
+
+![Vite](https://img.shields.io/badge/Built%20With-Vite-646CFF?logo=vite\&logoColor=white)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react\&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?logo=tailwindcss\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Database-Firebase-FFCA28?logo=firebase\&logoColor=black)
+![Deployed](https://img.shields.io/badge/Deployed-GitHub%20Pages-blue?logo=github\&logoColor=white)
+
+---
